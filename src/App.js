@@ -1,6 +1,14 @@
+import AddTodoForm from "./AddTodoForm";
+import Tamamlanan from "./Tamamlanan";
+import TodoList from "./TodoList";
+
 function App() {
   return (
-    <div>App</div>
+    <section className="container">
+      <AddTodoForm />
+      <TodoList />
+      <Tamamlanan />
+    </section>
   );
 }
 
